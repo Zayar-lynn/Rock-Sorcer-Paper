@@ -1,0 +1,30 @@
+.container{
+	margin-top: 10px;
+}
+#alert{
+	padding: 10px;
+	border-radius: 3px;
+}
+#ai_user,#user{
+	padding: 30px;
+	display: inline-block;
+}
+
+/*Animation*/
+@keyframes pulse {
+  from { transform: scale(1); }
+  50% { transform: scale(0.85); }
+  to { transform: scale(1); }
+}
+
+.fe-pulse {
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.fe-pulse2 {
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
